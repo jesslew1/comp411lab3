@@ -25,9 +25,7 @@ int main()
   printf("Your input in reverse is:\n%s\n", reverse);
   digits = 0;
   for (int i = 0; i <= length; i++){
-      if (reverse[i] == text[i]){
-          continue;
-      } else {
+      if (reverse[i] != text[i]){
           digits = 1;
       }
   }
