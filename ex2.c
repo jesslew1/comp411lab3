@@ -29,8 +29,9 @@ int main()
           digits = 1;
     //   } else {
     //       digits = 0;
-      } else  if (digits == 0){
-            printf("Found a palindrome!\n");
       }
+  }
+  if (digits == 0){
+      printf("Found a palindrome!\n");
   }
 }
