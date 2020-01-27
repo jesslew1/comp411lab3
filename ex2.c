@@ -23,15 +23,14 @@ int main()
   revLength = strlen(text);
   reverse[revLength] = '\0';
   printf("Your input in reverse is:\n%s\n", reverse);
-  digits = 0;
   for (int i = 0; i <= length; i++){
+      digits = 0;
       if (reverse[i] != text[i]){
           digits = 1;
-      } else {
-          digits = 0;
+    //   } else {
+    //       digits = 0;
+      } else  if (digits == 0){
+            printf("Found a palindrome!\n");
       }
-  }
-  if (digits == 0){
-      printf("Found a palindrome!\n");
   }
 }
