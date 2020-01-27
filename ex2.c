@@ -26,7 +26,7 @@ int main()
   digits = 0;
   for (int i = 0; i <= length; i++){
       if (reverse[i] == text[i]){
-          digits = 0;
+          continue;
       } else {
           digits = 1;
       }
