@@ -9,14 +9,14 @@ int main() {
     printf("Please enter 9 values for matrix A:\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-				scanf("%i", &A[i][j]);
+				scanf("%d", &A[i][j]);
 		}
 	}
 	
     printf("Please enter 9 values for matrix B:\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-			scanf("%i", &B[i][j]);
+			scanf("%d", &B[i][j]);
 		}
 	}
 
