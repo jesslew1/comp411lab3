@@ -38,7 +38,7 @@ length2 = strlen(text2) - 1;
 //     text2[i] = tolower(text2[i]);
 // }
  for (int i = 0; i <= length2; i++){
-      reverse2[i] = text2[(length2 - i];
+      reverse2[i] = text2[length2 - i];
   }
 revLength2 = length2 + 1;
 reverse2[revLength2] = '\0';
