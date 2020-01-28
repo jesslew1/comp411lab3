@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int Nchoosek(int n, int k) {
-	NchooseK(n, 0) = 1;
-    NchooseK(n, n) = 1;
+	NchooseK(n, 0) == 1;
+    NchooseK(n, n) == 1;
     if (k == 0 || k == n) {
 		return 1;
 	}
