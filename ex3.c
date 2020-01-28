@@ -50,9 +50,9 @@ for (int i =0; i < (length+1); i ++){
 revLength = length + 1;
   reverse2[revLength] = '\0';
 
-  digits = 0;
+//   digits = 0;
   for (int i = 0; i < length; i++){
-    if (text2[i] != reverse2[i]){
+    if (reverse2[i] != text2[i]){
           digits = 1;
         break; 
      } else {
