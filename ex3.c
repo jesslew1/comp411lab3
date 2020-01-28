@@ -44,16 +44,16 @@ for (i = 0; i <= length; i++) {
     }
   length = strlen(text2) - 1;
    for (int i = 0; i <= length; i++){
-      rev2[i] = text2[length - i];
-      // if doesnt work do (length  - i)-i
+      rev2[i] = text2[(length  - i)-i;
+      // if doesnt work do length -i
   }
   digits = 0;
   for (int i = 0; i < length; i++){
     if (rev2[i] != text2[i]){
-          digits = 1;
+        digits = 1;
         break; 
      } else {
-        digits = 0;
+            digits = 0;
         }
   }
   if (digits == 0){
