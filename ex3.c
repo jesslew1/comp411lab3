@@ -33,18 +33,18 @@ for (int i = 0; i <= length; i++){
         j++;
     }
 }
-length = strlen(text2) - 1;
+// length = strlen(text2) - 1;
 // for (int i =0; i < (length+1); i ++){
 //     text2[i] = toupper(text2[i]);
 // }
- for (int i = 0; i <= length; i++){
-      reverse2[i] = text2[(length - 1) - i];
+ for (int i = 0; i <= (strlen(text2) - 1); i++){
+      reverse2[i] = text2[((strlen(text2) - 1) - 1) - i];
   }
 // revLength = length + 1;
 // reverse2[revLength] = '\0';
 
 //   digits = 0;
-  for (int i = 0; i < MAX; i++){
+  for (int i = 0; i < (strlen(text2) - 1); i++){
     if (reverse2[i] != text2[i]){
           digits = 1;
         // break; 
