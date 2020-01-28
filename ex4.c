@@ -26,8 +26,8 @@ int main()
         for (int j = 0; j < 3; ++j) {
             C[i][j] = A[i][j] + B[i][j];
         }
-        printf("\n");
     }
+   // printf("\n");
   
 
 }
