@@ -46,7 +46,7 @@ revLength2 = length2 + 1;
 reverse2[revLength2] = '\0';
 
   digits = 0;
-  for (int i = 0; i < length2; i++){
+  for (int i = 0; i <= length2; i++){
     if (text2[i] == reverse2[i]){
         digits = digits + 0;
         break;
