@@ -6,7 +6,6 @@ int Nchoosek(int n, int k) {
 	}
 	return Nchoosek(n-1, k-1) + Nchoosek(n-1, k);
 }
-
 int main() {
 	int n, k, nCk;
     while(1){
