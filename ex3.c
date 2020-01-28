@@ -43,17 +43,17 @@ length2 = strlen(text2) - 1;
 // revLength2 = length2 + 1;
 // reverse2[revLength2] = '\0';
 
-//   digits = 0;
+  digits = 1;
   for (int i = 0; i < length2; i++){
     if (text[i] == reverse2[i]){
-        digits = 0;
+        digits = 1;
         // break;
     } else {
-        digits = 1;
+        digits = 0;
         break;
     }
   }
-  if (digits == 0){
+  if (digits == 1){
       printf("Found a palindrome!\n");
   }
 
