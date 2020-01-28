@@ -45,7 +45,7 @@ length2 = strlen(text2) - 1;
 
   digits = 0;
   for (int i = 0; i < length2; i++){
-    if (text2[i] != reverse2[i]){
+    if (text[i] != reverse2[i]){
         digits = digits + 1;
         // break;
     } else {
