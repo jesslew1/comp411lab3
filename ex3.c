@@ -41,7 +41,7 @@ for (int i = 0; i <= length; i++){
     }
 }
 length = strlen(text2) -1;
-for (int 1 =0; i < (length+1); i ++){
+for (int i =0; i < (length+1); i ++){
     text2[i] = toupper(text2[i]);
 }
  for (int i = 0; i <= length; i++){
