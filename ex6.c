@@ -13,10 +13,10 @@ int main() {
 	int n, k, nCk;
 		printf("Enter two integers (for n and k) separated by space:\n");
 		scanf("%d%d", &n, &k);
-        while ( n != 0 && k != 0){
-        // if (n == 0 && k == 0){
-        //     break;
-        // } else {
+        while (n > 0 && k > 0){
+        if (n == 0 && k == 0){
+            break;
+        } else {
             nCk = Nchoosek(n, k);
             printf("%d\n", nCk);
         }
