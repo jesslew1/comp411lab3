@@ -28,6 +28,9 @@ int main()
   j = -1;
 
 for (i = 0; i <= length; i++) {
+    if (isspace(text[i]) || ispunct(text[i]) || !isalpha(text[i])) {
+			continue;
+		}
     if (!isspace(text[i]) && !ispunct(text[i]) && isalpha(text[i])) {
 			j++;
 			text2[j] = text[i];
