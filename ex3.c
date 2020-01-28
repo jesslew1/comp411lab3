@@ -49,7 +49,7 @@ length2 = strlen(text2) - 1;
         digits ++;
         // break;
     } else {
-        digits = 0;
+        digits += 0;
     }
   }
   if (digits == 0){
