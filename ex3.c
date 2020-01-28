@@ -52,7 +52,7 @@ for (int i =0; i < (length+1); i ++){
         digits = 1;
     }
   }
-  if (digits = 0){
+  if (digits == 0){
       printf("Found a palindrome!\n");
   }
 
