@@ -7,7 +7,6 @@ int main () {
   char buf[MAX_BUF], charc;
   int length;
   // other stuff
-
   do {
        // read a line
        fgets(buf, MAX_BUF, stdin);
@@ -29,7 +28,5 @@ int main () {
 		}
         // print the modified line
       printf("%s", buf);
-
   } while (length > 1);
-
 }
