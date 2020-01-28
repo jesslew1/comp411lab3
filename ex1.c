@@ -8,7 +8,7 @@
 int main()
 {
   char text[MAX], c;
-  int i;
+  int i,j;
   int lowercase, uppercase, digits, other;
   int length;
   
