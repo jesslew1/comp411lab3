@@ -66,5 +66,5 @@ if (reverse[0] == text[0] || reverse[length] == text[length]){
     if (reverse[0] == text[0] || reverse[length] == text[length]){
     printf("Found a palindrome!\n");
 }
-
+}
 }
