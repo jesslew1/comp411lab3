@@ -4,8 +4,8 @@ int Nchoosek(int n, int k) {
 	if (k == 0 || k == n) {
 		return 1;
 	}
-    //  NchooseK(n, 0) = 1
-    //  NchooseK(n, n) = 1
+     NchooseK(n, 0) = 1
+     NchooseK(n, n) = 1
 	return Nchoosek(n-1, k-1) + Nchoosek(n-1, k);
 }
 
