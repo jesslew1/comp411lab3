@@ -20,12 +20,12 @@ int main()
   for (int i = 0; i <= length; i++){
       reverse[i] = text[(length - 1) - i];
   }
-  revLength = length + 1;
-  reverse[revLength] = '\0';
+//   revLength = length + 1;
+//   reverse[revLength] = '\0';
   printf("Your input in reverse is:\n%s\n", reverse);
 
-int j = 0;
 for (int i = 0; i <= length; i++){
+    int j = 0;
     if (isspace(text[i]) || !isalpha(text[i]) || ispunct(text[i])){
         continue;
     } if (!isspace(text[i]) && isalpha(text[i]) && !ispunct(text[i])){
@@ -40,16 +40,17 @@ length2 = strlen(text2) - 1;
  for (int i = 0; i <= length2; i++){
       reverse2[i] = text2[(length2 - 1) - i];
   }
-revLength2 = length2 + 1;
-reverse2[revLength2] = '\0';
+// revLength2 = length2 + 1;
+// reverse2[revLength2] = '\0';
 
 //   digits = 0;
   for (int i = 0; i < length2; i++){
-    if (reverse2[i] != text2[i]){
-          digits = 1;
+    if (reverse2[i] == text2[i]){
+        digits = 0;
         // break; 
     } else {
-        digits = 0;
+        digits = 1;
+        break;
     }
   }
   if (digits == 0){
