@@ -51,7 +51,7 @@ for (i = 0; i <= length; i++) {
   rev2[revLength] = '\0';
   digits = 0;
   for (int i = 0; i < length; i++){
-    if (rev2[i] != text2[i]){
+    if (rev2[i] != text[i]){
         digits = 1;
         break; 
      } else {
