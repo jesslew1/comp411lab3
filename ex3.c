@@ -11,7 +11,7 @@ int main()
   char text[MAX], reverse[MAX], text2[MAX], reverse2[MAX];
   int i;
   int lowercase, uppercase, digits, other;
-  int length, revLength;
+  int length, revLength, length2, revLength2;
   
   puts("Type some text (then ENTER):");
 
@@ -33,18 +33,18 @@ for (int i = 0; i <= length; i++){
         j++;
     }
 }
-length = strlen(text2) - 1;
-for (int i =0; i < (length+1); i ++){
+length2 = strlen(text2) - 1;
+for (int i =0; i < (length2+1); i ++){
     text2[i] = toupper(text2[i]);
 }
- for (int i = 0; i <= length; i++){
-      reverse2[i] = text2[(length - 1) - i];
+ for (int i = 0; i <= length2; i++){
+      reverse2[i] = text2[(length2 - 1) - i];
   }
-// revLength = length + 1;
-// reverse2[revLength] = '\0';
+revLength2 = length2 + 1;
+reverse2[revLength2] = '\0';
 
-//   digits = 0;
-  for (int i = 0; i < length; i++){
+  digits = 0;
+  for (int i = 0; i < length2; i++){
     if (reverse2[i] != text[i]){
           digits = 0;
         // break; 
