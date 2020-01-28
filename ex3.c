@@ -43,7 +43,7 @@ length = strlen(text2) - 1;
 // revLength = length + 1;
 // reverse2[revLength] = '\0';
 
-//   digits = 0;
+  digits = 0;
   for (int i = 0; i < MAX; i++){
     if (reverse[i] != text[i]){
           digits = 1;
