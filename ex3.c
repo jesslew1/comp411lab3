@@ -24,13 +24,6 @@ int main()
 //   reverse[revLength] = '\0';
   printf("Your input in reverse is:\n%s\n", reverse);
 
-// for (int i =0; i < length; i++){
-//     if (!isalpha(text[i])){
-//         break;
-//     } else {
-//         toupper(text[i]) == tolower(text[i]);
-//     }
-// }
 for (int i = 0; i <= length; i++){
     int j = 0;
     if (isspace(text[i]) || !isalpha(text[i]) || ispunct(text[i])){
@@ -45,15 +38,14 @@ for (int i =0; i < (length+1); i ++){
     text2[i] = toupper(text2[i]);
 }
  for (int i = 0; i <= length; i++){
-      reverse2[i] = text2[length -i];
-      //(length - 1) - i
+      reverse2[i] = text2[(length - 1) - i];
   }
 // revLength = length + 1;
 // reverse2[revLength] = '\0';
 
 //   digits = 0;
   for (int i = 0; i < length; i++){
-    if (reverse[i] != text[i]){
+    if (reverse2[i] != text[i]){
           digits = 1;
         // break; 
     } else {
