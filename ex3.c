@@ -51,10 +51,10 @@ length2 = strlen(text2) - 1;
         digits = digits +1;
         // break;
     } else {
-        digits = digits +0;
+        digits = digits + 0;
     }
   }
-  if (digits == 0){
+  if (digits <= 0){
       printf("Found a palindrome!\n");
   }
 
