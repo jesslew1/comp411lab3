@@ -47,28 +47,18 @@ for (i = 0; i <= length; i++) {
       rev2[i] = text2[(length  - 1)-i];
       // if doesnt work do length -i
   }
+  revLength = strlen(text2);
+  rev2[revLength] = '\0';
   digits = 0;
-//   for (int i = 0; i < length; i++){
-//     if (rev2[i] != text2[i]){
-//         digits = 1;
-//         break; 
-//      } else {
-//             digits = 0;
-//         }
-//   }
-//   if (digits == 0){
-//       printf("Found a palindrome!\n");
-//   }
-for (i = 0; i < length; i++) {
-		 if (rev2[i] == text2[i]) {	
-			 continue;
-		} else {
-			digits = 1;
-		}
-		
-	}
-
-	if (digits == 0) {
-		printf("Found a palindrome!\n");
-	}
+  for (int i = 0; i < length; i++){
+    if (rev2[i] != text2[i]){
+        digits = 1;
+        break; 
+     } else {
+            digits = 0;
+        }
+  }
+  if (digits == 0){
+      printf("Found a palindrome!\n");
+  }
 }
