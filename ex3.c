@@ -60,7 +60,7 @@ for (i = 0; i <= length; i++) {
 //       printf("Found a palindrome!\n");
 //   }
 for (i = 0; i < length; i++) {
-		 if (newrev[i] == newtext[i]) {	
+		 if (rev2[i] == text2[i]) {	
 			 continue;
 		} else {
 			digits = 1;
