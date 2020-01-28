@@ -57,11 +57,11 @@ length2 = strlen(text2) - 1;
 //   if (digits == 0){
 //       printf("Found a palindrome!\n");
 //   }
-if (reverse[0] == text[0] || reverse[length] == text[length]){
+if (reverse[0] == text[0] || reverse[length] == text[length] || reverse[length-1] == text[length-1]){
     printf("Found a palindrome!\n");
 } 
-if ((!isalpha(reverse[0]) || !isalpha(text[0]) ||  !isalpha(reverse[length]) ||  !isalpha(text[length])) && (reverse[0] == text[1] || reverse[1] == text[0] || reverse[length-1] == text[length] || reverse[length] == text[length-1])){
-        printf("Found a palindrome!\n");
-}
+// if ((!isalpha(reverse[0]) || !isalpha(text[0]) ||  !isalpha(reverse[length]) ||  !isalpha(text[length])) && (reverse[0] == text[1] || reverse[1] == text[0] || reverse[length-1] == text[length] || reverse[length] == text[length-1])){
+//         printf("Found a palindrome!\n");
+// }
 
 }
