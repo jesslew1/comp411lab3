@@ -5,17 +5,15 @@ int main() {
 	int A[3][3]; // matrix A
 	int B[3][3]; // matrix B
 	int C[3][3]; // matrix C
-
-	printf("Please enter 9 values for matrix A:\n");
-
+	
+    printf("Please enter 9 values for matrix A:\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 				scanf("%d", &A[i][j]);
 		}
 	}
-
-	printf("Please enter 9 values for matrix B:\n");
-
+	
+    printf("Please enter 9 values for matrix B:\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 			scanf("%d", &B[i][j]);
@@ -23,7 +21,6 @@ int main() {
 	}
 
 	printf("C = B + A =\n");
-	
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 			C[i][j] = A[i][j] + B[i][j];
@@ -31,7 +28,4 @@ int main() {
 		}
 		printf("\n");
 	}
-
-
-
 }
