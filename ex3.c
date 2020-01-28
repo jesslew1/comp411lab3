@@ -47,7 +47,7 @@ for (int i =0; i < (length2+1); i ++){
 
 //   digits = 0;
   for (int i = 0; i < length2; i++){
-    if (reverse2[i] != text2[i]){
+    if (reverse[i] != text[i]){
         digits = 1;
         break;
     } else {
