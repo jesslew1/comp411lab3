@@ -49,7 +49,7 @@ reverse2[revLength2] = '\0';
   for (int i = 0; i < length2; i++){
     if (reverse[i] != text2[i]){
         digits = 1;
-        break;
+        // break;
     } else {
         digits = 0;
     }
