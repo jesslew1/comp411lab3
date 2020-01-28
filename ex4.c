@@ -24,7 +24,7 @@ int main() {
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
 			C[i][j] = A[i][j] + B[i][j];
-			printf("%*i", 10, C[i][j]);
+			printf("%*d", 10, C[i][j]);
 		}
 		printf("\n");
 	}
