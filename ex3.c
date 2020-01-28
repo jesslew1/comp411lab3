@@ -24,15 +24,15 @@ int main()
   reverse[revLength] = '\0';
   printf("Your input in reverse is:\n%s\n", reverse);
 
-int j = 0;
+// int j = 0;
 for (int i = 0; i <= length; i++){
     // int j = 0;
     if (isspace(text[i]) || !isalpha(text[i]) || ispunct(text[i])){
         continue;
     } if (!isspace(text[i]) && isalpha(text[i]) && !ispunct(text[i])){
         // j++;
-        text2[j] = text[i];
-        j++;
+        text2[i] = text[i];
+        // j++;
     }
 }
 length2 = strlen(text2) - 1;
