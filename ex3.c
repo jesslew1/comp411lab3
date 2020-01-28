@@ -57,7 +57,7 @@ for (int i =0; i < (length2+1); i ++){
 //   if (digits == 0){
 //       printf("Found a palindrome!\n");
 //   }
-if (reverse2[0] == text2[0] || reverse2[length] == text2[length]){
+if (reverse2[0] == text2[0] || reverse2[length2] == text2[length2]){
     printf("Found a palindrome!\n");
 }
 
