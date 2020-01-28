@@ -32,12 +32,12 @@ int main()
 //     }
 // }
 for (int i = 0; i <= length; i++){
-    int j = -1;
+    int j = 0;
     if (isspace(text[i]) || !isalpha(text[i]) || ispunct(text[i])){
         continue;
     } if (!isspace(text[i]) && isalpha(text[i]) && !ispunct(text[i])){
-        j++;
         text2[j] = text[i];
+        j++;
     }
 }
 length = strlen(text2) -1;
@@ -52,7 +52,7 @@ revLength = length + 1;
 
   digits = 0;
   for (int i = 0; i < length; i++){
-    if (reverse2[i] != text2[i]){
+    if (reverse2[i] != text[i]){
           digits = 1;
         break; 
      } else {
