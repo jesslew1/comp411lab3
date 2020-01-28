@@ -9,7 +9,7 @@
 int main()
 {
   char text[MAX], reverse[MAX], text2[MAX], reverse2[MAX];
-  int i;
+  int i,j;
   int lowercase, uppercase, digits, other;
   int length, revLength;
   
