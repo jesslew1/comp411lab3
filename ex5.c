@@ -12,9 +12,9 @@ int main () {
        fgets(buf, MAX_BUF, stdin);
         // calculate its length
         length = strlen(buf) - 1;
+        if (length == 0)
+           break;
        // modify the line by switching characters
-      // if (length == 0)
-      //      break;
       for (int i = 0; i < MAX_BUF; i++){
           charc = buf[i];
           if (charc == 'I'|| charc == 'i')
