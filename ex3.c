@@ -9,7 +9,7 @@
 int main()
 {
   char text[MAX], reverse[MAX], text2[MAX], reverse2[MAX];
-  int i,j;
+  int i;
   int lowercase, uppercase, digits, other;
   int length, revLength;
   
@@ -44,7 +44,7 @@ for (int i =0; i < (length+1); i ++){
 // reverse2[revLength] = '\0';
 
 //   digits = 0;
-  for (int i = 0; i < length; i++){
+  for (int i = 0; i < MAX; i++){
     if (reverse2[i] != text[i]){
           digits = 1;
         // break; 
