@@ -58,7 +58,7 @@ length2 = strlen(text2) - 1;
 //       printf("Found a palindrome!\n");
 //   }
 for (int i = 0; i < length; i++){
-    if (text[i] == reverse[i] && text[i+2] == reverse[i+2]){
+    if (text[i] == reverse[i] && text[i+3] == reverse[i+3]){
     printf("Found a palindrome!\n");
     break;
     }
