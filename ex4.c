@@ -23,8 +23,8 @@ int main()
 		}
 	}
    for (i = 0; i < 3; ++i){
-        for (j = 0; j < 3; ++j) {
-            sum[i][j] = a[i][j] + b[i][j];
+        for (int j = 0; j < 3; ++j) {
+            sum[i][j] = &A[i][j] + &B[i][j];
         }
     }
   
