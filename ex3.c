@@ -47,11 +47,11 @@ length2 = strlen(text2) - 1;
 
 //   digits = 0;
   for (int i = 0; i < length2; i++){
-    if (reverse2[i] == text2[i]){
-        digits = digits +0;
-        continue;
+    if (reverse2[i] != text2[i]){
+        digits = digits +1;
+        break;
     } else {
-        digits = digits + 1;
+        digits = digits + 0;
     }
   }
   if (digits == 0){
