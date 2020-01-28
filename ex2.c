@@ -19,7 +19,7 @@ int main()
  for (int i = 0; i <= length; i++){
      reverse[i] = text[(length - 1) - i];
   }
-  revLength = strlen(text);
+  revLength = length + 1;
   reverse[revLength] = '\0';
   printf("Your input in reverse is:\n%s\n", reverse);
   digits = 0;
