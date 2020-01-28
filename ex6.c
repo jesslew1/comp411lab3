@@ -12,14 +12,13 @@ int main() {
     while(1){
         printf("Enter two integers (for n and k) separated by space:\n");
 		scanf("%d%d", &n, &k);
-        // while (n > 0 && k > 0){
             if (n == 0 && k == 0){
+                printf("1\n");
                 break;
             } else {
                 nCk = Nchoosek(n, k);
                 printf("%d\n", nCk);
             }
-        //}
 
     }
 }
