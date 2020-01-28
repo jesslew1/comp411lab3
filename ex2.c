@@ -30,13 +30,6 @@ int main()
      } else {
         digits = 0;
         }
- if (text[i] != reverse[i]){
-         digits = 1;
-        break; 
-     } else {
-        digits = 0;
-        }
-}
   if (digits == 0){
       printf("Found a palindrome!\n");
   }
