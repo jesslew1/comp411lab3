@@ -50,14 +50,14 @@ for (int i =0; i < (length+1); i ++){
 revLength = length + 1;
   reverse2[revLength] = '\0';
 
-  digits = 0;
+//   digits = 0;
   for (int i = 0; i < length; i++){
-    if (reverse2[i] != text2[i]){
+    if (reverse[i] != text[i]){
           digits = 1;
         // break; 
-     } else {
+    } else {
         digits = 0;
-        }
+    }
   }
   if (digits == 0){
       printf("Found a palindrome!\n");
