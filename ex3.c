@@ -45,7 +45,8 @@ for (int i =0; i < (length+1); i ++){
     text2[i] = toupper(text2[i]);
 }
  for (int i = 0; i <= length; i++){
-      reverse2[i] = text2[(length - 1) - i];
+      reverse2[i] = text2[length -i];
+      //(length - 1) - i
   }
 // revLength = length + 1;
 // reverse2[revLength] = '\0';
