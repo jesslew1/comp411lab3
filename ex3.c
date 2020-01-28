@@ -40,16 +40,16 @@ for (int i =0; i < (length+1); i ++){
  for (int i = 0; i <= length; i++){
       reverse2[i] = text2[(length - 1) - i];
   }
-// revLength = length + 1;
-// reverse2[revLength] = '\0';
+revLength = length + 1;
+reverse2[revLength] = '\0';
 
 //   digits = 0;
   for (int i = 0; i < MAX; i++){
-    if (reverse2[i] == text2[i]){
-          digits = 0;
+    if (reverse2[i] != text2[i]){
+          digits = 1;
         // break; 
     } else {
-        digits = 1;
+        digits = 0;
     }
   }
   if (digits == 0){
