@@ -36,9 +36,9 @@ for (int i = 0; i <= length; i++){
     }
 }
 length2 = strlen(text2) - 1;
-// for (int i =0; i < (length2+1); i ++){
-//     text2[i] = tolower(text2[i]);
-// }
+for (int i =0; i < (length2+1); i ++){
+    text2[i] = tolower(text2[i]);
+}
  for (int i = 0; i <= length2; i++){
       reverse2[i] = text2[(length2 - 1) - i];
   }
@@ -47,9 +47,9 @@ reverse2[revLength2] = '\0';
 
   digits = 0;
   for (int i = 0; i < length2; i++){
-    if (reverse[i] != text2[i]){
+    if (reverse2[i] != text2[i]){
         digits = 1;
-        // break;
+        break;
     } else {
         digits = 0;
     }
