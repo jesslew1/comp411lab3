@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int Nchoosek(int n, int k) {
-	NchooseK(n, 0) == 1;
-    NchooseK(n, n) == 1;
-    if (k == 0 || k == n) {
+    if (k == n || k == 0) {
 		return 1;
 	}
 	return Nchoosek(n-1, k-1) + Nchoosek(n-1, k);
