@@ -48,10 +48,10 @@ reverse2[revLength2] = '\0';
   digits = 0;
   for (int i = 0; i < length2; i++){
     if (reverse2[i] != text[i]){
-        digits = 1;
+        digits = digits +1;
         // break;
     } else {
-        digits = 0;
+        digits = digits +0;
     }
   }
   if (digits == 0){
