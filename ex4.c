@@ -8,8 +8,8 @@ int main() {
 
 	printf("Please enter 9 values for matrix A:\n");
 
-	for (int i = 0; i < 3; i++) {
-		for (int j = 0; j < 3; j++) {
+	for (int i = 1; i < 4; i++) {
+		for (int j = 1; j < 4; j++) {
 				scanf("%d", &A[i][j]);
 		}
 	}
@@ -26,8 +26,8 @@ int main() {
 	
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
-			C[i][j] = A[i][j] + B[i][j];
-			printf("%10d", C[i][j]);
+			C[i][j] = B[i][j] + A[i][j];
+			printf("%*d", C[i][j], 10);
 		}
 		printf("\n");
 	}
