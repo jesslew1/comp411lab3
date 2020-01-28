@@ -44,13 +44,12 @@ length = strlen(text2) - 1;
 // reverse2[revLength] = '\0';
 
 //   digits = 0;
-  for (int i = 0; i < MAX; i++){
-    if (reverse2[i] == text2[i]){
+  for (int i = 0; i < length; i++){
+    if (reverse2[i] != text2[i]){
           digits = 0;
         // break; 
-        continue;
     } else {
-        digits = 1;
+        digits = 0;
     }
   }
   if (digits == 0){
