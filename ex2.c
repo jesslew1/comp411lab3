@@ -30,6 +30,7 @@ int main()
      } else {
         digits = 0;
         }
+  }
   if (digits == 0){
       printf("Found a palindrome!\n");
   }
