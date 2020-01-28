@@ -29,7 +29,7 @@ int main () {
 		}
         // print the modified line
       printf("%s", buf);
-      }
+
   } while (length > 1);
 
 }
