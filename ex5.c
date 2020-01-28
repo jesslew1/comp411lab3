@@ -27,9 +27,9 @@ int main () {
 		  if (charc == 'O'|| charc == 'o')
 				buf[i] = '0';
 		}
-      }
         // print the modified line
       printf("%s", buf);
+      }
   } while (length > 1);
 
 }
