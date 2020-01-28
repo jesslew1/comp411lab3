@@ -6,6 +6,7 @@ int main() {
 	int B[3][3]; // matrix B
 	int C[3][3]; // matrix C
 	
+	// add your code below
     printf("Please enter 9 values for matrix A:\n");
 	for (int i = 0; i < 3; i++) {
 		for (int j = 0; j < 3; j++) {
